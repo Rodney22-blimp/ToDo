@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import backgroundImage from './bg.jpg'; // Make sure this image is in the same folder or correctly referenced
+import backgroundImage from './bg.jpg'; 
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
